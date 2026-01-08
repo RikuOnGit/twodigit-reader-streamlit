@@ -109,7 +109,7 @@ def rgba_to_gray_uint8(img_rgba):
 # -----------------------------
 st.set_page_config(page_title="Digit Reader", layout="wide")
 st.title("Digit reader (detect + classify)")
-st.write("Choose an input method, then click **Predict**. The app detects digit boxes and classifies each digit the trained CNN.")
+st.write("Choose an input method, then click **Predict**. The app detects digit boxes and classifies each digit with the trained CNN.")
 
 @st.cache_resource
 def load_model():
